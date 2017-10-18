@@ -71,6 +71,32 @@ public class Pokemon {
     }
 
     /**
+     * sets the name.
+     * @param n the name input
+     */
+    public void setName(final String n) {
+        this.name = n;
+    }
+
+    /**
+     * set the hitpoints.
+     * @param hit the input hitpoints.
+     */
+    public void setHit(final int hit) {
+        hitPoints = hit;
+    }
+
+    /**
+     * set attack and defense.
+     * @param attack input attack points
+     * @param def input defense points
+     */
+    public void setStats(final int attack, final int def) {
+        this.attackLevel = attack;
+        this.defenseLevel = def;
+    }
+
+    /**
      * Attack another Pokemon.
      * <p>
      * Calling this method will cause this Pokemon to attack another Pokemon as follows:
